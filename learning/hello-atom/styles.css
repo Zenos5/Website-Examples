@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #414141;
+  background-color: #EEEEEE;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+  background-color: #B2D6FF;
+  padding: 25px;
+  border-bottom: 3px solid #5D6063;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+}
+
+#created {
+ font-style: italic;
+ margin-bottom: 25 px;
+ color: #800000;
+}
+
+#taken {
+ font-style: italic;
+ margin-bottom: 25 px;
+ color: #571B7E;
+}
+
+#by {
+ font-style: italic;
+ margin-bottom: 25 px;
+ color: #254117;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
