@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #303030;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+i {
+  margin-top: 5px;
+}
+
+.fas {
+  margin-top: 5px;
+}
+
+.title {
+  font-family: 'Shadows Into Light Two', cursive;
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  background-color: #ffffff;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  font-family: 'Poppins', sans-serif;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight {
+  color: #FC6C3F;
+}
+
+.container {
+  position: relative;
+  width: 31.5%;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 25px;
+  height: auto;
+}
+
+.button-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 60%;
+  border: none;
+  font-size: 150%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.author {
+  width: 31.5%;
+  font-size: 110%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-author {
+  background-color: #FEE2D9;
+  border-radius: 3px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  width:22%;
+}
+
+#author-image {
+  border-radius: 112px;
+  width: 56%;
+  height: auto;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-section {
+  padding:80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-section {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-image {
+  border-radius: 30px;
+  width: 65.75%;
+}
+
+.top-image {
+  width: 24.5%;
+}
+
+#name {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+#description {
+  margin-bottom: 55px;
+  color: #606060;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+}
